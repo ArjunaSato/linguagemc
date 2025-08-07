@@ -15,7 +15,12 @@ int main(int argc, char const *argv[])
         printf("Digite outro valor\n");
         scanf("%d", &valor);
     }
-    
+    printf("\n =====================Valores digitados pelos usuários===================\n");
+    for (i = 0; i < qtd; i++)
+    {
+        printf("%d\n",vetor[i]);ad
+    }
+    printf("\n");
 
     return 0;
 }
